@@ -1,0 +1,6 @@
+Python	3.13.15
+PyTorch	2.14.1+cu130（CUDA 13.0 构建）
+torchvision	0.29.1+cu130
+Ultralytics	8.4.176（含 YOLO26 / YOLO11 / YOLOv8 等）
+GPU	NVIDIA GeForce RTX 5060 Laptop GPU，8 GB，算力 sm_120
+显卡驱动	591.91
