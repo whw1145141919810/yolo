@@ -1,0 +1,34 @@
+# 虚拟环境
+.venv/
+
+# Ultralytics / Matplotlib / PyTorch 运行时缓存
+.ultralytics/
+.matplotlib/
+matplotlib-*/
+.torch_cache/
+torchinductor_*/
+
+# 训练与推理输出
+runs/
+*.log
+
+# 权重文件
+weights/*.pt
+
+# 数据集
+data/**/images/
+data/**/labels/
+datasets/
+*.zip
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# 导出产物
+*.onnx
+*.engine
+*.torchscript
+*.tflite
+*.openvino/
