@@ -13,7 +13,7 @@ runs/
 *.log
 
 # 权重文件
-weights/*.pt
+*.pt
 
 # 数据集
 data/**/images/
